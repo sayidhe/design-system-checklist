@@ -42,14 +42,14 @@ const Header = ({ t }) => {
       <nav className={navClassName}>
         <ul className={s.menu}>
           <li className={s.item}>
-            <a href="/about" onClick={(e) => navigate(e, "/about")}>
+            <Link href="/about" onClick={(e) => navigate(e, "/about")}>
               {t.core.about}
-            </a>
+            </Link>
           </li>
           <li className={s.item}>
-            <a href="/share" onClick={(e) => navigate(e, "/share")}>
+            <Link href="/share" onClick={(e) => navigate(e, "/share")}>
               {t.core.share}
-            </a>
+            </Link>
           </li>
           <li className={s.item}>
             <a
